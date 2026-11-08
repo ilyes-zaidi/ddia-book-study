@@ -1,0 +1,18 @@
+# Local reference book; keep original study work in version control.
+/Designing Data-Intensive Applications.pdf
+
+# Local secrets and machine files
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Generated files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+/tmp/
+/labs/**/outputs/
+/projects/**/outputs/
